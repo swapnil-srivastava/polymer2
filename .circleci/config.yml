@@ -30,6 +30,9 @@ jobs:
 
       - run: yarn add polymer-cli
 
+      # adding firebase-tools 
+      - run: yarn add firebase-tools
+
       # adding the bower components file using the polymer cli 
       - run: yarn polymer install 
 
