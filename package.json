@@ -1,0 +1,13 @@
+{
+  "name": "polymer2",
+  "version": "1.0.0",
+  "description": "this is a placeholder to get the circle ci work faster to cache the dev dependencies and has nothing to do with the app",
+  "main": "index.html",
+  "repository": "https://github.com/swapnil-srivastava/polymer2.git",
+  "author": "Swapnil Srivastava <swapnilsrivastava68@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "firebase-tools": "^6.2.2",
+    "polymer-cli": "^1.9.3"
+  }
+}
