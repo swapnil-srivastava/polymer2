@@ -28,10 +28,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: yarn add polymer-cli
-
-      # adding firebase-tools 
-      - run: yarn add firebase-tools
+      - run: yarn install
 
       # adding the bower components file using the polymer cli 
       - run: yarn polymer install 
